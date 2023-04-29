@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    flex-wrap: wrap;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.nav{
+    background-color: #f6eaea;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0px;
+   
+
+}
+
+/*CONTENEDOR DE LA IMAGEN Y EL TITULO*/
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav img{
+    height: 90px;
+    width: 80px;
+    margin-right: 1rem;   
+}
+
+/*BARRA DE NAVEGACION, DIV Y ANCLA*/
+
+.nav div a{
+    text-decoration: none;
+}
+
+/*TITULO*/
+
+.nav div a h1{
+    font-size: 28px;
+    color: black;
+}
+
+/*BARRA DE NAV, ITEM DE LISTA*/
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav ul li{
+    height: 90px;
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+/*BARRA DE NAV, LISTA DESORDENADA, iTEM DE LISTAS Y ANCLAS*/
+
+.nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav ul li a:hover{
+    color: rgb(248, 50, 159);
+    
+
+}
+
+/*MAIN*/
+
+main{
+   min-width: 250px;
+    margin: auto;
+}
+
+.foto{
+    height: 250px;
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px;
+    border-radius: 50%;
+    border: solid 0.5px black;
+    align-content: center;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.parrafo-1{
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+   margin: 20px;
+}
+
+.miCv{
+    display: flex;
+    background-color: #af599e;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    color: #fbfbfb;
+    font-size: 20px;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: auto;
+    text-decoration: none;
+    
+
+}
+
+h3{
+    text-align: center;
+    background-color: rgba(175, 89, 158, 0.3);
+    
+}
+.parrafo-2 {
+    text-align: center;
+    background-color:rgba(175, 89, 158, 0.3);
+    font-size: 18px;
+    text-decoration-line: none;
+    border-radius: 15px;
+
+}
+
+
+.parrafo-inicio{
+    text-align: center;
+    font: size 28px;
+    color: #283467;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+  
+
+footer{
+    height: 90px;
+    text-align: center;
+    color: #0b0b0b;
+    
+}
+
+
+.iconos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    gap: 20px;
+    
+}
+
+.iconos a{
+    font-size: 50px;
+    color: #948d8d;
+}
+.footer{
+    height: 50px;
+    font-size: 12px;
+    color: azure;
+    background-color: #ba0796;
+    margin: auto;
+    padding-top: 20px;
+   
+}
